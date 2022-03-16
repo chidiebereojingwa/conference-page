@@ -11,6 +11,12 @@
     box-sizing: border-box;
   }
 
+  body {
+    color: #272a31;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+
   .header-icons {
     display: none;
   }
@@ -33,8 +39,333 @@
       display: none;
   }
 
+  ul {
+    list-style: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav img {
+    width: 50%;
+  }
+
+  nav ul li a:hover {
+    color: #ec5242;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  nav .logo {
+    text-align: center;
+  }
+
+  header {
+    padding: 4%;
+  }
+  
+  header h2 {
+    color: #ec5242;
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 9vw;
+    margin-top: 20vw;
+    font-family:
+      'Lucida Sans',
+      'Lucida Sans Regular',
+      'Lucida Grande',
+      'Lucida Sans Unicode',
+      Geneva,
+      Verdana,
+      sans-serif;
+  }
+  
+  header h1 {
+    color: #ec5242;
+    font-family: 'Cocogoose', sans-serif;
+    font-weight: normal;
+    font-size: 8vw;
+    line-height: 8vw;
+  }
+  
+  header div {
+    margin-top: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+    background: #f8f8f8;
+    border: 2px solid #fff;
+  }
+  
+  header h3 {
+    margin-top: 1rem;
+    font-family: 'Cocogoose', sans-serif;
+    font-weight: normal;
+    font-size: 6vw;
+    line-height: 7vw;
+  }
+  
+  header h4 {
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  /* styling for programs */
+
+.program {
+    color: #d3d3d3;
+    width: 100vw;
+    background-image: url('../images/pattern_bg.png');
+    background-repeat: repeat;
+    background-color: #272a32;
+    background-size: 8%;
+  }
+  
+  .program-cards {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+  }
+  
+  .program h2 {
+    padding-top: 2rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 5vw;
+  }
+  
+  .program hr {
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    width: 10%;
+    border: 0.5px solid #ec5242;
+  }
+  
+  .program .card {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.6rem 1.1rem;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .program .card img {
+    width: 13%;
+    display: block;
+  }
+  
+  .program .card h3 {
+    text-align: center;
+    width: 40%;
+    color: #ec5242;
+    font-size: 4vw;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  .program .card p {
+    width: 70%;
+    font-size: 3.3vw;
+    line-height: 5vw;
+  }
+  
+  .program .btn-container {
+    margin: 0 auto;
+    padding: 2rem 3rem;
+  }
+  
+  .program .join-conference-btn {
+    padding: 1.5rem 2rem;
+    font-family: inherit;
+    font-size: 4vw;
+    border: none;
+    background-color: #ec5242;
+    color: #d3d3d3;
+    width: 100%;
+  }
+  
+  .program .join-conference-btn span {
+    font-family: 'Cocogoose', sans-serif;
+  }
+
+  /* Styling for Speakers */
+
+.speakers {
+    padding: 2.2rem 1rem;
+    width: 100%;
+    color: #272a31;
+  }
+  
+  .speakers-cards {
+    padding: 2rem 0;
+    width: 100%;
+  }
+  
+  .speakers h2 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 5vw;
+  }
+  
+  .speakers hr {
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    width: 10%;
+    border: 0.5px solid #ec5242;
+  }
+  
+  .speakers-cards .card .speaker-img {
+    padding-right: 1.1rem;
+    height: 181px;
+    width: 181px;
+    float: left;
+  }
+  
+  .speakers-cards .card img {
+    max-width: 100%;
+  }
+  
+  .speakers-cards .card h3 {
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1rem;
+  }
+  
+  .speakers-cards .card h4 {
+    color: #ec5242;
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-style: italic;
+    font-weight: 900;
+  }
+  
+  .speakers-cards hr {
+    border: 0.5px solid #d3d3d3;
+    width: 20px;
+    margin: 1rem 0;
+  }
+  
+  .speakers-cards .card p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    padding-left: 1rem;
+  }
+  
+  .speakers-cards .featured-speakers {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .speakers-cards .important-speakers {
+    padding: 1rem 0;
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* styling for organizers */
+  
+  .organizers {
+    padding: 2rem;
+    background-color: #414245;
+  }
+  
+  .organizers h2 {
+    color: #d3d3d3;
+    font-weight: 400;
+    text-align: center;
+    font-size: 5vw;
+  }
+  
+  .organizers .organizers-hr {
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    width: 10%;
+    border: 0.5px solid #ec5242;
+  }
+  
+  .organizers .organizers-wrapper {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .organizers .organizers-wrapper img {
+    display: block;
+    height: 100px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    background: transparent;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    padding: 4rem 1.5rem;
+  }
+  
+  footer .copy {
+    width: 50%;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+  
+  footer .logo-img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+
 
   @media only screen and (min-width: 769px) {
+    .header-icons {
+      display: none;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      font-size: 2rem;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.9);
+    }
+
+    nav ul {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3vh;
+    }
+
+    nav .home {
+      color: var(--myorange);
+      border: 5px solid;
+      border-color: var(--myorange);
+      padding: 0.5rem;
+    }
+
+    header {
+      margin-top: -30px;
+      background: url(../images/mobile_intro_bg.png);
+      background-size: cover;
+    }
 
     .header-icons {
         display: flex;
