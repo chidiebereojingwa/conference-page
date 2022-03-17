@@ -499,38 +499,38 @@ hr.between-sections {
   border: 0.5px solid #d3d3d3;
 }
 
-.about-planning {
+.about-card {
   padding: 2rem;
 }
 
-.about-planning div {
+.about-card div {
   width: 70vw;
   margin: 0 auto;
 }
 
-.about-planning .possible {
+.about-card .possible {
   font-size: 5vw;
   font-weight: 400;
 }
 
-.about-planning hr {
+.about-card hr {
   margin: 0.8rem auto;
   width: 20px;
   border: 0.5px solid #ec5242;
 }
 
-.about-planning .text {
+.about-card .text {
   font-size: 3vw;
   line-height: 4vw;
 }
 
-.about-planning .videos-wrapper {
+.about-card .vids-wrapper {
   width: 100%;
   padding: 1rem 0;
   margin: 0;
 }
 
-.about-planning .video {
+.about-card .vid {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -540,15 +540,15 @@ hr.between-sections {
   color: #fff;
 }
 
-.about-planning .video h2 {
+.about-card .vid h2 {
   font-family: 'Cocogoose', sans-serif;
 }
 
-.about-planning .video p {
+.about-card .vid p {
   padding: 1rem;
 }
 
-.about-planning .video.v1 {
+.about-card .vid.vid1 {
   background:
     linear-gradient(
       0deg,
@@ -559,7 +559,7 @@ hr.between-sections {
   background-size: cover;
 }
 
-.about-planning .video.v2 {
+.about-card .vid.vid2 {
   background:
     linear-gradient(
       0deg,
@@ -947,32 +947,32 @@ hr.between-sections {
     border: 0.5px solid #d3d3d3;
   }
 
-  .about-planning {
+  .about-card {
     padding: 2rem;
   }
 
-  .about-planning div {
+  .about-card div {
     width: 70vw;
     margin: 0 auto;
   }
 
-  .about-planning .possible {
+  .about-card .possible {
     font-size: 1.2rem;
     font-weight: 400;
   }
 
-  .about-planning .planning-hr {
+  .about-card .planning-hr {
     margin: 0.8rem auto;
     width: 30px;
     border: 0.5px solid #ec5242;
   }
 
-  .about-planning .text {
+  .about-card .text {
     font-size: 0.8rem;
     line-height: 1rem;
   }
 
-  .about-planning .videos-wrapper {
+  .about-card .vids-wrapper {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -981,7 +981,7 @@ hr.between-sections {
     margin: 0;
   }
 
-  .about-planning .video {
+  .about-card .vid {
     display: flex;
     flex-direction: column;
     justify-content: center;
