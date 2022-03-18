@@ -20,7 +20,7 @@ open your terminal and type: git clone. https://github.com/chidiebereojingwa/con
 Clone project to your local machine 
 run the index.html
 ## Live Demo
-https://chidiebereojingwa.github.io/portfolior_microverse/
+https://chidiebereojingwa.github.io/conference-page/
 ## Authors
 
 👤 **Chidiebere Ojingwa**
