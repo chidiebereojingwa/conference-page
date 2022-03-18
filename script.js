@@ -1,4 +1,3 @@
-
 const data = [
   {
     name: 'Chidiebere Ojingwa',
@@ -48,15 +47,14 @@ const data = [
   },
 ];
 
-
 // Menu button
 const menuBtn = document.querySelector('.menu-btn');
 const menuNavEle = document.querySelector('nav');
 
 // Helper function to toggle menu pop-up
-const toggleMenuDisplay = (menuElement) => {
-  menuElement.classList.toggle('show');
-};
+function toggleMenuDisplay(menuElement) {
+  menuElement.classList.toggle('display');
+}
 
 let menuOpen = false;
 if (menuBtn) {
@@ -86,24 +84,24 @@ menuList.forEach((menu) => {
 
 const toggleMore = document.querySelector('#more');
 
-const showMoreSpeakers = (speakersEle) => {
+function displayMoreSpeakers(speakersEle) {
   speakersEle.style.display = 'flex';
-};
+}
 
 if (toggleMore) {
   toggleMore.addEventListener('click', () => {
     const mainSpeakersEle = document.querySelector('.important-speakers');
-    showMoreSpeakers(mainSpeakersEle);
+    displayMoreSpeakers(mainSpeakersEle);
     toggleMore.style.display = 'none';
   });
 }
 
 // Creating speaker cards from data.js
-const firstSpeakersEle = document.querySelector('.featured-speakers');
-const restSpeakersEle = document.querySelector('.important-speakers');
+const firstSpeakersElement = document.querySelector('.featured-speakers');
+const restSpeakersElement = document.querySelector('.important-speakers');
 let speakerCounter = 0;
 
-function insertCard(element, data){
+function insertCard(element, data) {
   const {
     name, title, description, imageUrl,
   } = data;
@@ -119,21 +117,21 @@ function insertCard(element, data){
     </div>
   `;
   element.insertAdjacentHTML('beforeend', card);
-};
+}
 
-if (firstSpeakersEle && restSpeakersEle) {
+if (firstSpeakersElement && restSpeakersElement) {
   data.forEach((speaker) => {
     if (speakerCounter < 2) {
-      insertCard(firstSpeakersEle, speaker);
+      insertCard(firstSpeakersElement, speaker);
       speakerCounter += 1;
     } else {
-      insertCard(restSpeakersEle, speaker);
+      insertCard(restSpeakersElement, speaker);
       speakerCounter += 1;
     }
   });
 }
 
-// Check for scroll to hide social bar
+// for scrolling to hide social bar
 window.addEventListener('scroll', () => {
   const navEle = document.querySelector('nav');
   if (window.scrollY > 34 && window.innerWidth > 768) {

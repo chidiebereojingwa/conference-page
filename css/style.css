@@ -11,7 +11,7 @@
   src: url('../fonts/Cocogoose.otf');
 }
 
-.show {
+.display {
   display: block;
 }
 
@@ -600,7 +600,7 @@ hr.between-sections {
     font-family: "Nanum Gothic", sans-serif;
   }
 
-.social-icons a {
+  .social-icons a {
     text-decoration: none;
     color: #fff;
     font-size: 0.89em;
