@@ -63,7 +63,7 @@ nav ul li a:hover {
 }
 
 nav .logo {
-  text-align: left;
+  text-align: center;
 }
 
 header {
@@ -229,10 +229,19 @@ header h4 {
   height: 181px;
   width: 181px;
   float: left;
+  background-image: url(/images/chess.jfif);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 4em;
 }
 
 .speakers-cards .card img {
   max-width: 100%;
+  height: 6.5em;
+  width: 6.5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
 }
 
 .speakers-cards .card h3 {
@@ -555,7 +564,7 @@ hr.between-sections {
       rgba(236, 82, 66, 0.6),
       rgba(236, 82, 66, 0.6)
     ),
-    url('../images/summit.jpg') no-repeat top center;
+    url('/images/summit.jpg') no-repeat top center;
   background-size: cover;
 }
 
@@ -566,7 +575,7 @@ hr.between-sections {
       rgba(236, 82, 66, 0.7),
       rgba(236, 82, 66, 0.7)
     ),
-    url('../images/craft-2.jpeg') no-repeat top center;
+    url('/images/me.png') no-repeat top center;
   background-size: cover;
 }
 
@@ -579,6 +588,7 @@ hr.between-sections {
 
   nav {
     padding: 0 6vw;
+    padding-right: 187px;
     display: block;
     position: absolute;
     top: 35px;
@@ -807,7 +817,7 @@ hr.between-sections {
   }
 
   .speakers-cards .card {
-    padding: 2rem 0;
+    padding: 0rem 0;
   }
 
   .speakers-cards #more {
@@ -989,6 +999,11 @@ hr.between-sections {
     margin-top: 1rem;
     height: 250px;
     color: #fff;
+  }
+
+  .foot {
+    background-color: #3e3e3e;
+    color: #f8f8f8;
   }
 }
 
