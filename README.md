@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # HTML/CSS/JS Capstone Project 
-EASY SEND INTERNATIONAL CONFERENCE
+EASYSEND FIRST INTERNATIONAL CONFERENCE
 
 This website is a work of fiction. Any similarity to actual persons, or actual events, is purely coincidental.
 
@@ -12,6 +12,7 @@ This website is a work of fiction. Any similarity to actual persons, or actual e
 HTML
 CSS
 JavaScript
+Linters
 ### Setup
 clone to you local machine
 create a directory on a your local machin.
